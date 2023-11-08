@@ -1,6 +1,6 @@
 import { postMessage } from "./actions";
 
-export default async function Home() {
+export default function Page() {
   return (
     <div>
       <h2 class="text-2xl text-center mt-5">Contact Form</h2>
