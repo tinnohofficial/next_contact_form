@@ -1,10 +1,13 @@
-import { postMessage } from "./actions";
+// import { postMessage } from "./actions";
 
 export default function Page() {
   return (
     <div>
-      <h2 class="text-2xl text-center mt-5">Contact Form</h2>
-      <form action={postMessage} className="w-1/2 mx-auto mt-3">
+      <h2 class="text-3xl text-center mt-5">Welcome to msulipro</h2>
+      <p className="text-center mt-5">
+        Project is still under construction by tinnohofficial
+      </p>
+      {/* <form action={postMessage} className="w-1/2 mx-auto mt-3">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Email:
@@ -42,7 +45,7 @@ export default function Page() {
             Reset
           </button>
         </div>
-      </form>
+      </form>*/}
     </div>
   );
 }
